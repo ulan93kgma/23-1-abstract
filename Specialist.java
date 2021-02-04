@@ -1,7 +1,8 @@
 public class Specialist extends Employee {
     private int levels;
-
-
+    void goToDayOff() {
+        System.out.println("в качестве компенсации за  работу");
+    }
 
     public void setLevels(int levels) {
         this.levels = levels;

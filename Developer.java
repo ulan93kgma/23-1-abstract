@@ -23,4 +23,7 @@ public class Developer extends Employee {
     public void goToVacation() {
         System.out.println("I am going to Maldivy");
     }
+    void goToDayOff() {
+        System.out.println("дежурство в нерабочее время");
+    }
 }

@@ -22,4 +22,7 @@ public class CEO extends Employee {
     public void goToVacation() {
         System.out.println("I am going to Thailand");
     }
+    void goToDayOff() {
+        System.out.println("для сохранения настроя");
+    }
 }

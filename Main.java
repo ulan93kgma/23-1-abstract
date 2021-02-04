@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Specialist Aktan = new Specialist("Saardarbekov", 25, 20000, 1 );
+        Specialist Aktan = new Specialist("Saardarbekov", 25, 20000, 1);
         Specialist Meerim = new Specialist("Kalieva", 26, 30000, 2);
         Specialist Aika = new Specialist("Toktosopiev", 28, 40000, 3);
         Developer Akak = new Developer("Karimbekov", 29, 500000, "Middle");
@@ -21,9 +21,13 @@ public class Main {
         Sergei.writeProcedures();
         Andrei.goPublic();
         Aika.goToVacation();
+        Aktan.goToDayOff();
+        Akak.goToDayOff();
+        Pasha.goToDayOff();
+        Andrei.goToDayOff();
 
 
-        Employee[] EmployeeArray = new Employee[10];
+        /*Employee[] EmployeeArray = new Employee[10];
         EmployeeArray[0] = new Employee("Specialist Aktan");
         EmployeeArray[1] = new Employee("Specialist Meerim");
         EmployeeArray[2] = new Employee("Specialist Aika");
@@ -40,6 +44,7 @@ public class Main {
         for ( int i = 0; i < EmployeeArray.length; i++) {
 
             System.out.println(EmployeeArray[i].name + " едет в отпуск в честь дня рождения компании");
-        }
+        }*/
+
     }
 }

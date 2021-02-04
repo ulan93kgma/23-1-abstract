@@ -22,4 +22,7 @@ public class Manager extends Employee {
     public void goToVacation() {
         System.out.println("I am going to Egipet");
     }
+    void goToDayOff() {
+        System.out.println("из-за переработки");
+    }
 }
